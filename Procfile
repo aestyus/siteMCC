@@ -1,1 +1,1 @@
-web: npx serve -s build
+web: cd public && npx serve -s build
