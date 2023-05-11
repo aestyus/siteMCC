@@ -1,7 +1,5 @@
 {
-  "name": "mes-chtis-commercants",
-  "version": "1.0.0",
-  "description": "Système de fidélité collaboratif",
-  "author": "Arthur",
-  "license": "MCC"
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
 }
