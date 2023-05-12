@@ -13,22 +13,32 @@ app.use('/', (req, res) => {
 
 app.use('/page-projet', (req, res) => {
   res.sendFile('page-projet.html');
+}, {
+    exact: true
 });
 
 app.use('/page-communication', (req, res) => {
     res.sendFile('page-communication.html');
+}, {
+    exact: true
   });
 
 app.use('/page-contact', (req, res) => {
     res.sendFile('page-contact.html');
+}, {
+    exact: true
   });
 
 app.use('/page-roadmap', (req, res) => {
     res.sendFile('page-roadmap.html');
+}, {
+    exact: true
   });
 
 app.use('/page-equipe', (req, res) => {
     res.sendFile('page-equipe.html');
+}, {
+    exact: true
   });
 
 // Start the server
