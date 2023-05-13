@@ -8,35 +8,35 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Add routes for each page
 app.use('/', (req, res) => {
-  res.sendFile('index.html');
+  res.sendFile(__dirname + 'index.html');
 });
 
 app.use('/page-projet', (req, res) => {
-  res.sendFile('page-projet.html');
+  res.sendFile(__dirname + 'page-projet.html');
 }, {
     exact: true
 });
 
 app.use('/page-communication', (req, res) => {
-    res.sendFile('page-communication.html');
+    res.sendFile(__dirname + 'page-communication.html');
 }, {
     exact: true
   });
 
 app.use('/page-contact', (req, res) => {
-    res.sendFile('page-contact.html');
+    res.sendFile(__dirname + 'page-contact.html');
 }, {
     exact: true
   });
 
 app.use('/page-roadmap', (req, res) => {
-    res.sendFile('page-roadmap.html');
+    res.sendFile(__dirname + 'page-roadmap.html');
 }, {
     exact: true
   });
 
 app.use('/page-equipe', (req, res) => {
-    res.sendFile('page-equipe.html');
+    res.sendFile(__dirname + 'page-equipe.html');
 }, {
     exact: true
   });
