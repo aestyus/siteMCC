@@ -460,6 +460,6 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-left: 10%;
 }
