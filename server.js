@@ -7,6 +7,9 @@ const app = express();
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Add routes for each page
+
+app.set('view engine', 'ejs');
+
 app.use('/', (req, res) => {
   res.sendFile(__dirname + 'index.html');
 });
