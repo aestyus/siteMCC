@@ -14,7 +14,7 @@ function addViewportMetaTag() {
    if (window.innerWidth < 400) {
       var meta = document.createElement('meta');
       meta.name = 'viewport';
-      meta.content = 'width=400px, initial-scale=0.5';
+      meta.content = 'width=400px';
       document.head.appendChild(meta);
    }
 }
