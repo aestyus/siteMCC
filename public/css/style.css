@@ -425,8 +425,16 @@ ul {
 
 .projet-video {
   width: 560px;
-  height: 315px;
+  aspect-ratio: 16/9;
 }
+
+@media (max-width: 672px) {
+  .projet-video {
+    width: calc(100vw - 20%);
+    height: calc((100vw - 20%)* 2);
+  }
+}
+
 
 .avenir-text {
   color: rgb(195, 195, 195);
