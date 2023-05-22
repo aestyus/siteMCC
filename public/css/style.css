@@ -28,7 +28,7 @@ body {
 
 @media (max-width: 400px) {
   body {
-    user-zoom: 400px;
+    zoom: 400px;
   }
 }
 /* Barre de navigation - début */
