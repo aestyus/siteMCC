@@ -9,3 +9,11 @@ let includes = document.getElementsByTagName('include');
       function load_file(filename, callback) {
          fetch(filename).then(response => response.text()).then(text => callback(text));
       }
+      
+window.addEventListener('resize', function() {
+   if (window.innerWidth < 300) {
+      document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=400');
+   } else {
+      document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=device-width, initial-scale=1.0');
+   }
+});
