@@ -24,7 +24,7 @@ body {
   overflow-x: hidden;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
   body {
     min-width: 400px;
   }
