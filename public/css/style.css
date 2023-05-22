@@ -25,6 +25,12 @@ body {
   min-width: 400px;
 }
 
+@viewport {
+  zoom: reset; /* Reset the zoom level */
+  min-zoom: 1; /* Set the minimum zoom level */
+  max-zoom: 2; /* Set the maximum zoom level */
+}
+
 /* Barre de navigation - début */
 
 .navbar {
