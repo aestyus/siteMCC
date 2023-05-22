@@ -385,6 +385,7 @@ ul {
   flex-direction: column;
   padding-top: 10px;
   padding-bottom: 100px;
+  overflow: hidden;
 }
 
 .photo-profile {
