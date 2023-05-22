@@ -23,6 +23,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   min-width: 400px;
+  width: 100vw;
 }
 
 /* Barre de navigation - début */
