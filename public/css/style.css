@@ -26,9 +26,8 @@ body {
 }
 
 @viewport {
-  zoom: reset; /* Reset the zoom level */
-  min-zoom: 0.1; /* Set the minimum zoom level */
-  max-zoom: 1; /* Set the maximum zoom level */
+  min-zoom: 1; /* Set the minimum zoom level */
+  max-zoom: 2; /* Set the maximum zoom level */
 }
 
 /* Barre de navigation - début */
