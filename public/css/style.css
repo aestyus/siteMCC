@@ -481,14 +481,21 @@ footer {
   padding: 0px 0px;
 }
 
-.partenaires-paragraphe {
+.partenaires-sous-titre {
   color: rgb(93, 93, 93);
   font-size: 24px;
   padding: 0px 10%;
 }
 
+.partenaires-paragraphe {
+  font-size: 18px;
+  padding: 0px 10%;
+  color: rgb(48, 48, 91);
+}
+
 .container-gris-large {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #f4f4f4;
@@ -497,9 +504,25 @@ footer {
   border-radius: 10px;
 }
 
+@media (min-width: 992px) {
+    .container-gris-large{
+      flex-direction: row;
+    }
+
+    .logo-partenaire {
+      margin-left: 100px;
+    }
+}
+  
 .partenaires-centrage {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-top: 80px;
+}
+
+.logo-partenaire {
+  object-fit: cover;
+  object-position: center;
+  height: 90px;
 }
