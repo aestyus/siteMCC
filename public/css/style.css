@@ -479,6 +479,12 @@ footer {
   align-items: center;
 }
 
+@media (max-width: 500px) {
+  .contact-ligne{
+    flex-direction: column;
+  }
+}
+
 .contact-icon {
   font-size: 35px;
   padding-right: 10px;
