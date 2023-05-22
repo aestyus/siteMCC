@@ -146,6 +146,7 @@ h3 {
   color: white;
   margin: 10px;
   cursor: pointer;
+  user-select: none;
 }
 
 h4 {
