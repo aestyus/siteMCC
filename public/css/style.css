@@ -469,6 +469,18 @@ footer {
   padding-left: 10%;
 }
 
+.contact-ligne {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-icon {
+  font-size: 35px;
+  padding-right: 10px;
+  color: #D6321C;
+}
+
 .error-container {
   padding: 100px 0px;
   padding-left: 10%;
