@@ -468,7 +468,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   padding-top: 20px;
-  padding-left: 10%;
+  padding: 10%;
+  overflow: hidden;
 }
 
 .contact-ligne {
