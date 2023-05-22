@@ -22,15 +22,20 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  min-width: 400px;
 }
 
-@media (max-width: 400px) {
-  body {
-    min-width: 400px;
-    zoom: auto;
-  }
+@media (min-width: 400px) {
+body {
+  zoom: 100%;
+}
 }
 
+@media (max-width: 399px) {
+body {
+  zoom: calc(100% * (100vw / 400px));
+}
+}
 
 /* Barre de navigation - début */
 
