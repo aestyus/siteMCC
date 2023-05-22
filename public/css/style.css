@@ -27,6 +27,7 @@ body {
 @media (max-width: 400px) {
   body {
     min-width: 400px;
+    zoom: auto;
   }
 }
 
