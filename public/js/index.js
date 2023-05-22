@@ -10,10 +10,13 @@ let includes = document.getElementsByTagName('include');
          fetch(filename).then(response => response.text()).then(text => callback(text));
       }
       
-window.addEventListener('resize', function() {
+function addViewportMetaTag() {
    if (window.innerWidth < 400) {
-      document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=400');
-   } else {
-      document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=device-width, initial-scale=1.0');
+      var meta = document.createElement('meta');
+      meta.name = 'viewport';
+      meta.content = 'width=400px, initial-scale=1';
+      document.head.appendChild(meta);
    }
-});
+}
+       
+window.addEventListener('load', addViewportMetaTag);
