@@ -397,6 +397,10 @@ ul {
   font-style: italic;
 }
 
+.role-text {
+  text-align: center;
+}
+
 .container-profile h2,
 .container-profile h4,
 .container-profile p {
@@ -475,4 +479,27 @@ footer {
   font-size: 30px;
   font-style: italic;
   padding: 0px 0px;
+}
+
+.partenaires-paragraphe {
+  color: rgb(93, 93, 93);
+  font-size: 24px;
+  padding-left: 10%;
+}
+
+.container-gris-large {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding : 40px 0px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.partenaires-centrage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 80px;
 }
