@@ -352,6 +352,10 @@ ul {
     }
 }
 
+.debordement {
+  overflow: hidden;
+}
+
 /* Main Page - fin */
 
 /* Page équipe - début */
