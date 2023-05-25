@@ -143,6 +143,18 @@ footer {
   position: absolute; 
 }
 
+@media (max-width: 900px) {
+  .section-2 {
+      flex-direction: column;
+    }
+  .hyperlink {
+    font-size: 16px;
+  }
+  .hupurlink {
+    font-size: 14px;
+  }
+  }
+
 /* Barre de navigation - fin */
 h1 {
   font-size: 36px;
@@ -157,7 +169,7 @@ h2 {
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 20px;
   color: white;
   margin: 10px;
   cursor: pointer;
