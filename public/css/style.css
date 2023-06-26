@@ -456,11 +456,6 @@ ul {
   align-items: center;
 }
 
-@media (max-width: 992px) {
-    .medium-tile {
-      flex-direction: column;
-    }
-}
 
 .medium-image {
   width: 300px;
@@ -472,6 +467,22 @@ ul {
   width: calc(80% - 300px);
   font-size: 18px;
   text-align: justify;
+}
+
+@media (max-width: 992px) {
+    .medium-tile {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .medium-image {
+      margin: 10px;
+    }
+
+    .texte-medium {
+      width: 100%;
+      margin-top: 40px;
+    }
 }
 
 /* Page équipe - début */
