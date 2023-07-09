@@ -488,7 +488,7 @@ ul {
 /* Page équipe - début */
 
 .ekp-top {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .ekp-titre {
@@ -611,13 +611,14 @@ footer {
   justify-content: center;
   padding: 0px 10%;
   overflow: hidden;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .contact-ligne {
   display: flex;
   flex-direction: row;
   align-items: center;
+  cursor: pointer;
 }
 
 @media (max-width: 500px) {
