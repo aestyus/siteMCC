@@ -97,7 +97,11 @@ body {
   cursor: pointer; 
 }
 
-
+@media (max-width: 400px) {
+  .boite-partenaire {
+    width: 65%
+  }
+}
 /* Barre de navigation - fin */
 
 /* Footer - début */
