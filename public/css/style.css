@@ -99,7 +99,12 @@ body {
 
 @media (max-width: 400px) {
   .boite-partenaire {
-    width: 65%
+    width: 65%;
+  }
+
+  .boite-partenaire-text {
+    width: 100%;
+    white-space: nowrap;
   }
 }
 /* Barre de navigation - fin */
@@ -577,7 +582,7 @@ ul {
   font-size: 30px;
   font-style: italic;
   padding: 100px 30px;
-  align-self: center;
+  text-align: center;
 }
 
 .avenir-container {
