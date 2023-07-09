@@ -100,12 +100,12 @@ body {
 @media (max-width: 400px) {
   .boite-partenaire {
     width: 65%;
+    padding: 10;
   }
 
   .partenaire-text {
-    width: 100%;
+    font-size: 5vw;
     white-space: nowrap;
-    padding: 5;
   }
 }
 /* Barre de navigation - fin */
