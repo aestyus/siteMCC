@@ -105,6 +105,7 @@ body {
   .boite-partenaire-text {
     width: 100%;
     white-space: nowrap;
+    padding: 5;
   }
 }
 /* Barre de navigation - fin */
