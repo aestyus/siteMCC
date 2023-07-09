@@ -89,7 +89,7 @@ body {
   background-color:#D6321C;
 }
 
-.boite-partenaire-text {
+.partenaire-text {
   color: white;
   font-size: 16px;
   display: flex;
@@ -102,7 +102,7 @@ body {
     width: 65%;
   }
 
-  .boite-partenaire-text {
+  .partenaire-text {
     width: 100%;
     white-space: nowrap;
     padding: 5;
