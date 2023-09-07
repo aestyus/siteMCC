@@ -327,7 +327,8 @@ ul {
 
 .c-card {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .top-card {
@@ -340,6 +341,7 @@ ul {
   background-color: #f4f4f4;
   border-radius: 10px;
   padding: 40px;
+  margin-bottom: 80px;
   /* margin: 4px; */
 }
 
@@ -380,7 +382,7 @@ ul {
 }
 
 .img-c-card img{
-  height: 40vh;
+  height: 70vh;
   width: 40vw;
   max-height: 300px;
   max-width: 200px;
@@ -431,13 +433,12 @@ ul {
   display: flex;
   padding: 0px 20px;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   /* align-items: stretch; */
   width: 90%;
 }
 
 .bot-right-r p {
-  flex: 1;
   padding: 0px;
   margin: 0px;
 
@@ -452,6 +453,36 @@ ul {
   border-radius: 10px;
 }
 
+.savoir-plus-c {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.savoir-plus {
+  display: flex;
+  background-color: black;
+  height: 47px;
+  width: 150px;
+  border-radius: 40px;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.savoir-plus:hover {
+  background-color:#D6321C;
+}
+
+.savoir-plus-text {
+  color: white;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer; 
+}
 
 .spline-lecteur {
   height: 500px;
@@ -589,7 +620,7 @@ ul {
       display: flex;
       flex-direction: column;
       padding: 40px 0px;
-      width: 100%;
+      width: 97%;
     }
 
     .bot-right {
