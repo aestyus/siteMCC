@@ -611,6 +611,15 @@ ul {
   }
 
   @media (max-width: 572px) {
+
+    .paragraphe-text {
+      font-size: 40px;
+    }
+
+    .h2 {
+      font-size: 15px;
+    }
+
     .top-card {
       margin: 0 auto;
       justify-content: center;
@@ -624,7 +633,7 @@ ul {
     }
 
     .titre-card {
-      font-size: 30px;
+      font-size: 40px;
     }
 
     .sous-titre-card {
