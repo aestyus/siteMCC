@@ -623,6 +623,14 @@ ul {
       width: 97%;
     }
 
+    .titre-card {
+      font-size: 30px;
+    }
+
+    .sous-titre-card {
+      font-size: 15px;
+    }
+
     .bot-right {
       width: 94%;
     }
