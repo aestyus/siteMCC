@@ -340,6 +340,7 @@ ul {
   background-color: #f4f4f4;
   border-radius: 10px;
   padding: 40px;
+  /* margin: 4px; */
 }
 
 .icon-card {
@@ -572,6 +573,34 @@ ul {
   .bot-right {
     max-width: 500px;
     margin-top: 5px;
+  }
+
+  .bot-left {
+    width: 500px;
+  }
+
+  @media (max-width: 572px) {
+    .top-card {
+      margin: 0 auto;
+      justify-content: center;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      padding: 40px 0px;
+      width: 100%;
+    }
+
+    .bot-right {
+      width: 94%;
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  .img-c-brt img{
+    height: 120px;    
   }
 }
 
