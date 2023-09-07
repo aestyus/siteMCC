@@ -566,6 +566,7 @@ ul {
 
   .bot-card {
     flex-direction: column;
+    justify-items: center;
   }
 
   .bot-right {
