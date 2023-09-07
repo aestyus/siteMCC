@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <script src="js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
     <script>
         window.addEventListener('load', addViewportMetaTag);
     </script>
@@ -41,27 +42,79 @@
             </div>
         </nav>
         <div class="flex-center">
-            <img src="images/geoffroy-hauwen-porte.webp" alt="Porte fortifiée Vieux Lille" class="full-image">
-            <h1 class="titre-top"><span class="nowrap">Vous faire réellement</span> <span class="nowrap">découvrir le commerce </span><span class="nowrap">et l'artisanat lillois :</span> <span class="nowrap">voilà notre mission</span></h1>
+            <img src="images/banniere-site-resized.jpg" alt="Porte fortifiée Vieux Lille" class="full-image">
         </div>
     </header>
     
     <section class="debordement">
         <ul class="section-1 debordement">
             <li class="paragraphe-container">
-                <i class="las la-hand-holding-usd paragraphe-icon"></i>
-                <h2><span class="badge paragraphe-badge">1</span>Système de fidélité</h2>
-                <p class="paragraphe-text">Collecte des points dans tous nos commerces partenaires et utilise les pour recevoir des cadeaux de n'importe quel commerçant.</p>
+                <img src="./images/icons/icons8-get-cash-96.png" alt="gain d'argent" class="paragraphe-icon"/>
+                <!-- <i class="las la-hand-holding-usd paragraphe-icon"></i> -->
+                <h2>Un système de fidélité</h2>
+                <p class="paragraphe-text">Cumule des points au fil de tes achats chez nos commerçants partenaires, puis échange les contre toute sorte de cadeaux !</p>
             </li>
             <li class="paragraphe-container">
-                <i class="las la-mobile paragraphe-icon"></i>
-                <h2><span class="badge paragraphe-badge">1</span>Application</h2>
-                <p class="paragraphe-text">Consulte tes points de fidélité à tout moment, suis le développement de ton réseau de commerçants, tiens toi informé de leur activité, et tout ça en quelques clics.</p>
+                <img src="./images/icons/icons8-phone-96.png" alt="téléphone" class="paragraphe-icon"/>
+                <h2>Une application</h2>
+                <p class="paragraphe-text">Consultes ton solde de points, construis ton réseau de boutiques et tiens toi informé de leurs actualités, le tout sur une même application !</p>
             </li>
             <li class="paragraphe-container">
-                <i class="las la-store-alt paragraphe-icon"></i>
-                <h2><span class="badge paragraphe-badge">De nombreux</span>commerces</h2>
-                <p class="paragraphe-text">Retrouve certaines de tes meilleures adresses et découvre des commerçants remarquables partageant tes valeurs !</p>
+                <img src="./images/icons/icons8-shop-96.png" alt="commerce" class="paragraphe-icon"/>
+                <h2>De nombreux commerces</h2>
+                <p class="paragraphe-text">Retrouve facilement tes adresses préférées et découvres-en de nouvelles qui partagent tes valeurs !</p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="debordement">
+        <div id="animation-container" class="double-down">
+            <script>
+                var animation = bodymovin.loadAnimation({
+                    container: document.getElementById('animation-container'),
+                    path: "./images/double-down.json",
+                    render: 'svg',
+                    loop: true,
+                    autoplay: true,
+                    name: 'demo animation',
+                    });
+            </script>
+        </div>
+        <ul class="c-card">
+            <li class="card">
+                <div class="top-card">
+                    <img src="./images/icons/icons8-binoculars-96.png" alt="jumelles pour découvrir" class="icon-card"/>
+                    <div class="aligner-text">
+                        <h1 class="titre-card">Découverte</h1>
+                        <p class="sous-titre-card">À la recherche de nouveautés ? <br> Grâce aux cadeaux offerts par nos commerçants partenaires, tu découvriras pleins de boutiques et de produits du terroir Lillois !</p>
+                    </div>
+                </div>
+                <div class="bot-card">
+                    <div class="bot-left">
+                        <div class="img-c-card">
+                            <img src="images/Cadeau .jpg" alt="Chaussettes en cadeaux" class="img-fluid"/>
+                        </div>
+                        <div class="img-c-card">
+                            <img src="images/Levitation phone mock up.png" alt="Visuel cadeaux application " class="img-fluid"/>
+                        </div>
+                    </div>
+                    <div class="bot-right">
+                        <div class="bot-right-sec">
+                            <div class="img-c-br">
+                                <img src="images/pexels-mathias-reding-6931427.jpg" alt="Visuel cadeaux application " class="img-fluid"/>
+                            </div>
+                            <div class="bot-right-r">
+                                <p >Notre région du nord possède un patrimoine fort. Aidons nos artisans à le préserver dans le temps.</p>
+                                <div class="img-c-brt">
+                                    <img src="images/pexels-mathias-reding-10011982.jpg" alt="Visuel cadeaux application " class="img-fluid"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="savoir-plus">
+                    <p></p>
+                </div>
             </li>
         </ul>
     </section>
