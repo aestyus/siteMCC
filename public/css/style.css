@@ -99,6 +99,19 @@ body {
   cursor: pointer; 
 }
 
+.bande-dons {
+  display: flex;
+  background-color: #D6321C;
+  height: 30px;
+  width: 100%;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.text-dons {
+  color: white;
+}
+
 @media (max-width: 400px) {
   .boite-partenaire {
     width: 70%;
