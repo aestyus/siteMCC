@@ -103,7 +103,7 @@ body {
   position: relative;
   display: flex;
   background-color: black;
-  height: 30px;
+  height: 34px;
   width: 100%;
   align-items: center;
   padding-left: 5%;
@@ -112,7 +112,7 @@ body {
 
 .text-lancement {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .flare {
