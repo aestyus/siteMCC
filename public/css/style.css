@@ -99,6 +99,47 @@ body {
   cursor: pointer; 
 }
 
+.bande-lancement {
+  position: relative;
+  display: flex;
+  background-color: black;
+  height: 30px;
+  width: 100%;
+  align-items: center;
+  padding-left: 5%;
+  overflow: hidden;
+}
+
+.text-lancement {
+  color: white;
+  font-size: 20px;
+}
+
+.flare {
+  position: absolute; /* Position absolue pour le "flare" */
+  width: 0px; /* Largeur de la lueur */
+  height: 0px; /* Hauteur de la lueur (égale à la hauteur de la bande) */
+  box-shadow: 0 0 50px 30px rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  opacity: 0; /* Initialisation de l'opacité à 0 */
+  animation: moveFlare 2s linear infinite; /* Animation de déplacement de la lueur */
+}
+
+@keyframes moveFlare {
+  0%{
+      left: 100%; /* Position finale à droite de la bande */
+      opacity: 0; /* Lueur invisible */
+  }
+  40% {
+      left: 5%; /* Position initiale à gauche de la bande */
+      opacity: 1; /* Lueur visible */
+  }
+  100% {
+      left: 30%; /* Position finale à droite de la bande */
+      opacity: 0; /* Lueur invisible */
+  }
+}
+
 .bande-dons {
   display: flex;
   background-color: #D6321C;
@@ -106,6 +147,17 @@ body {
   width: 100%;
   align-items: center;
   padding-left: 20px;
+  animation: blink 3s infinite
+}
+
+@keyframes blink {
+  0%, 100% {
+    background-color: #fbbfb7; /* Texte invisible */
+  }
+  20%,
+  80%  {
+    background-color: #D6321C; /* Texte visible */
+  }
 }
 
 .text-dons {
