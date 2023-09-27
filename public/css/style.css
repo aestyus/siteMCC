@@ -884,12 +884,6 @@ ul {
   cursor: pointer; 
 }
 
-.spline-lecteur {
-  height: 500px;
-  width: 100%;
-  margin-top: 50px;
-}
-
 .projet-video {
   width: 560px;
   aspect-ratio: 16/9;
