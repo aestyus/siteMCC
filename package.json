@@ -2,8 +2,5 @@
   "dependencies": {
     "gulp-responsive": "^3.0.1",
     "serve": "^14.2.0"
-  },
-  "scripts": {
-    "build": "mkdir -p dist && cp -r public/* dist/"
   }
 }
