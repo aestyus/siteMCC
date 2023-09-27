@@ -852,6 +852,44 @@ ul {
   padding: 50px;
 }
 
+.telecharger-button-c {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.telecharger-button {
+  display: flex;
+  background-color: black;
+  height: 47px;
+  width: 220px;
+  border-radius: 40px;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.telecharger-button:hover {
+  background-color:#D6321C;
+}
+
+.telecharger-button-text {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer; 
+}
+
+.spline-lecteur {
+  height: 500px;
+  width: 100%;
+  margin-top: 50px;
+}
+
 .projet-video {
   width: 560px;
   aspect-ratio: 16/9;
