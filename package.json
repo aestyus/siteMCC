@@ -4,6 +4,6 @@
     "serve": "^14.2.0"
   },
   "scripts": {
-    "build": "mkdir -p dist && cp -r src/* dist/"
+    "build": "mkdir -p dist && cp -r public/* dist/"
   }
 }
