@@ -878,7 +878,7 @@ ul {
 .telecharger-button-text {
   color: white;
   font-size: 16px;
-  text-decoration: none;
+  /* text-decoration: none; */
   display: flex;
   align-items: center;
   cursor: pointer; 
