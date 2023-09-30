@@ -2,5 +2,10 @@
   "dependencies": {
     "gulp-responsive": "^3.0.1",
     "serve": "^14.2.0"
+  },
+  "scripts": {
+    "build": "echo \"nothing to build\"",
+    "start": "python -m SimpleHTTPServer $PORT"
   }
 }
+
