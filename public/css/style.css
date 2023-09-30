@@ -143,11 +143,12 @@ body {
 .bande-dons {
   display: flex;
   background-color: #D6321C;
-  height: 30px;
+  /* height: 30px; */
   width: 100%;
   align-items: center;
   padding-left: 20px;
-  animation: blink 3s infinite
+  animation: blink 2s infinite;
+  padding: 0px 20px;
 }
 
 @keyframes blink {
@@ -162,6 +163,13 @@ body {
 
 .text-dons {
   color: white;
+  margin: 10px 0px;
+}
+
+.text-dons-lien {
+  color: white;
+  margin: 10px 0px;
+  white-space: nowrap;
 }
 
 @media (max-width: 400px) {
@@ -891,14 +899,14 @@ ul {
   background-color:#D6321C;
 }
 
-.telecharger-text {
+.collecte-text {
   font-size: 18px;
 }
 
 .telecharger-button-text {
   color: white;
   font-size: 16px;
-  /* text-decoration: none; */
+  text-decoration: none;
   display: flex;
   align-items: center;
   cursor: pointer; 
